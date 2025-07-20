@@ -1,5 +1,5 @@
 {
-  "name": "blackhack-backend",
+  "name": "black-hack",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^22.0.0",
+    "puppeteer-core": "^21.3.8",
+    "@sparticuz/chromium": "^121.0.0",
     "cors": "^2.8.5"
   }
 }
